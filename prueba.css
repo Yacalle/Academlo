@@ -1,0 +1,9 @@
+
+.menu{
+    margin-left: -70%;
+}
+
+#btn-menu:checked ~ .menu{
+    margin: 0%;
+    
+}

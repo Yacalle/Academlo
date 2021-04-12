@@ -1,0 +1,437 @@
+/*INICIO RESET*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#navbar-btn{
+    display: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+li {
+    list-style: none;
+}
+/*FIN RESET*/
+/*=======================================================================*/
+/*header style*/
+.header-style{
+    border-bottom: 3px solid #eee;
+}
+
+/*======================NAVBAR=======================*/
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+}
+
+/*logo*/
+.navbar .logo{
+    margin-left: 3rem;
+}
+.navbar .logo img{
+    width: 50px;
+    height: 50px;
+
+}
+/*btn menu*/
+.btn-menu{
+    height: 100%;
+}
+
+.btn-menu label{
+    display: none;
+}
+
+
+/*items*/
+.items{
+    margin-right: 40px;
+}
+.items ul{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin: auto;
+}
+.items ul li{
+    margin: 0px 1.5rem;
+    transition: all 0.3s;
+    margin: 0px 15px;
+}
+.items ul li a{
+    display: inline-block;
+    width: 100%;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem 0;
+}
+/*MAIN*/
+/*------------------------------presentation--------------------------------*/
+.height-row{
+    min-height: 70vh;
+}
+.style-row-1{
+    align-items: flex-end;
+}
+.presentation-me{
+    padding: 10px;
+}
+.presentation-me h1{
+    margin-bottom: 1.3rem;
+}
+.presentation-me p{
+    margin-bottom: 1.3rem;
+}
+.icon-social{
+    margin-bottom: 1.2rem;
+}
+
+/*social icons*/
+.icon-social i{
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+.icon-social i:hover{
+    filter: opacity(0.3);
+}
+.bg-facebook{
+    background: #3b5998;
+}
+.bg-twitter{
+    background: #00acee;
+}
+.twitter-margin-x{
+    margin: 0px 10px;
+}
+.bg-instagram{
+    background: #E1306C;
+}
+
+/*img about me*/
+.img-about-me{
+    display: flex;
+}
+
+/*------------------------------services--------------------------------------------*/
+
+.colum-3 .icono{
+    width: 5rem;
+    height: 5rem;
+    padding: 1.3rem;
+    background: #E1306C;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: auto;
+}
+.style-colum-3{
+    border-radius: 0.3rem;
+    text-align: center;
+    padding: 1rem;
+    min-height: 50vh;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px 3px rgba(56, 56, 56, 0.603);
+    transition: all 0.4s;
+}
+.style-colum-3:hover{
+    background: rgba(207, 206, 206, 0.479);
+}
+.style-colum-3 h3{
+    padding: 1rem 0;
+}
+.style-colum-3 a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #E1306C;
+    font-weight: bold;
+    color: #E1306C;
+    width: 5rem;
+    height: 2rem;
+    margin-top: 2rem;
+}
+.icono i{
+    font-size: 2rem;
+}
+
+.who-me{
+    margin: 2rem 0;
+}
+.button-who{
+    display: inline-block;
+    padding: .3rem .5rem;
+    background: #E1306C;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-top: 1.5rem;
+}
+/*----------------------------portfolio-----------------------------*/
+.portfolio{
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+/*----------------------------clients-----------------------------*/
+.container-clientes{
+    display: flex;
+    align-items: center;
+    background: rgba(241, 241, 241, 0.623);
+    min-height: 20vh;
+}
+.clients{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 3px 50px 3px 0px;
+}
+.clients a{
+    display: inline-flex;
+    justify-content: center;
+    height: 4rem;
+    transition: all 0.4s;
+}
+.clients a:hover{
+    filter: opacity(0.5);
+}
+
+/*----------------------------contacs-----------------------------*/
+.container-contact{
+    display: flex;
+    justify-content: center;
+}
+.style-box-contact{
+    border: 1px solid #eee;
+    width: 50%;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin: 2rem 0;
+    box-shadow: 0 2px 3px 3px rgba(56, 56, 56, 0.603);
+}
+.email{
+    font-size: 1.5rem;
+}
+/*---------------------------------FOOTER--------------------------------*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cornsilk;
+    min-height: 3rem;
+}
+
+/*===============================UTILITYS==================================*/
+.d-block{
+    display: block;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+}
+.mg-auto{
+    margin: auto;
+}
+.fx-direction-colum{
+    flex-direction: column;
+}
+.j-content-space-between{
+    justify-content: space-between;
+}
+.margin-bottom{
+    margin-bottom: 3rem;
+}
+.margin-top{
+    margin-top: 1.5rem;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.container-h2{
+    margin: 2rem 0;
+    text-align: center;
+}
+/*==================================================RESPONSIVE============================================*/
+@media(max-width: 768px){
+    /*-------------presentation-------------*/
+    .container{
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .row > .colum-6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    /*-------------services-------------*/
+    .style-colum-3{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .container-services{
+        display: flex;
+        flex-direction: column;
+    }
+    .who-me > div{
+        text-align: center;
+
+    }
+
+     /*-------------portfolio-------------*/
+     .portfolio{
+         flex-direction: column;
+         flex-wrap: nowrap;
+     }
+     .portfolio > div{
+         margin-bottom: 2rem;
+         width: 100%;
+     }
+     /*------------clients-------------------*/
+     .container-clientes{
+         justify-content: center;
+     }
+     .clients{
+         flex-direction: column;
+         justify-content: center;
+         width: 100%;
+         padding: 0px;
+
+     }
+     .clients > a{
+         margin-bottom: 2rem;
+
+     }
+      /*------------clients-------------------*/
+      .style-box-contact{
+          width: 100%;
+
+      }
+
+
+
+
+
+
+
+    .header-style{
+        width: 100%;
+    }
+    .navbar{
+        border: 1px solid #eee;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .navbar .logo img{
+        cursor: pointer;
+    }
+    /*LOGO*/
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;    
+    }
+    .navbar .logo{
+        margin-left: 0rem;
+    }
+   
+    /*BTN-MENU*/
+    .btn-menu{
+        position: fixed;
+        height: auto;
+    }
+    .btn-menu label{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 3rem;
+        padding: 10px;
+        border: 1px solid rgb(199, 199, 199);
+        position: fixed;
+        background: #ffffff;
+        position: fixed;
+        bottom: 4vh;
+        right: 3vh;
+        z-index: 999;
+        border-radius: 50%;
+        box-shadow: 0 2px 3px 1px rgba(56, 56, 56, 0.603);
+    }
+    .btn-menu .fas{
+        font-size: 25px;
+    }
+    .btn-menu label:hover{
+        cursor: pointer;
+    }
+    
+    /*ITEMS*/
+    .items{
+        position: fixed;
+        bottom: 13vh;
+        right: 4vh;
+        background: rgb(241, 241, 241);
+        width: 35%;
+        border-radius: 3px;
+        margin-left: -70%;
+        display: none;
+        transition: all 60s;
+    }
+    .items ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .items li{
+        padding: 0.5rem;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+    .items a{
+        display: inline-block;
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .items li:hover{
+        background: rgba(255, 255, 255, 0.336);
+    }
+    
+    /*Utilitys*/
+    .border-bottom{
+        border-bottom: 1px solid #eee;
+    }
+    
+    /*checkbox*/
+    #navbar-btn:checked ~ .items {
+        display: block;
+    }
+    footer p{
+        text-align: center;
+
+    }
+
+}
